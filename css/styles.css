@@ -1,0 +1,281 @@
+:root {
+--header-color:#FFFFFF;
+--main-title-color:#FFFFFF;
+--second-title-color:#303030;
+--main-btn-color:#FFFFFF;
+--second-btn-color:#303030;
+--accent-color:#FF6C00;
+}
+
+
+
+
+body {
+    font-family: "Open Sans", Tahoma,Arial, Helvetica, sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+  list-style: none;
+
+}
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
+/*-------------------------------HEADER-------------------------------------*/
+
+.header {
+    background-color: gray
+}
+.header-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color:var(--header-color);
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: #FF6C00;
+}
+    
+
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--header-color);
+}
+
+.header-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--main-btn-color);
+}
+.header-btn:hover {
+    color: var(--main-btn-color);
+    background-color:var(--accent-color);  
+}
+/*-------------------------------HERO-------------------------------------*/
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height:1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+    transform: rotate(-89.83deg);
+
+}
+   .hero-link:hover,
+   .hero-link:focus {
+    color: #FF6C00;
+}
+.hero-content {
+    background-color: #303030;
+}
+    
+.hero-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6); 
+}
+
+.hero-title {
+    font-family: 'Raleway',Tahoma,sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color:var(--main-title-color); 
+}
+
+.hero-bottom-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+/*-------------------------------ABOUT-------------------------------------*/
+
+.about-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #303030;
+}
+.about-title {
+    font-family: 'Raleway',Tahoma,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height:1.17;
+    letter-spacing: 0.05em;
+    color: var(--second-title-color);
+}
+.about-bottom-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #555555;
+    
+}
+.about-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+.about-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--second-btn-color);
+}
+
+/*-------------------------------PRICES-------------------------------------*/
+
+.prices {
+    background-color: #303030;
+}
+
+
+.prices-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+.prices-title {
+    font-family: 'Raleway',Tahoma,sans-serif;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: var(--main-title-color);
+    
+}
+
+.prices-item-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+.prices-btn {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*-------------------------------REASONS-------------------------------------*/
+
+.reasons-item-count {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #303030;
+    
+}
+.reasons-item-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color: #303030;
+}
+.reasons-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #303030;
+}
+.reasons-title {
+    font-family: 'Raleway',Tahoma,sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: var(--second-title-color);
+}
+.reasons-bottom-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+/*-------------------------------MASTERS-------------------------------------*/
+.masters-top-text {
+    color: #303030;
+
+}
+
+.masters-title {
+    color: var(--second-title-color);
+}
+
+.masters-item-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #303030;
+}
+
+.masters-item-text {
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--accent-color); 
+}
+
+
+/*-------------------------------GALLERY-------------------------------------*/
+.gallery-top-text {
+    color: #303030;
+}
