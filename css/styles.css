@@ -5,6 +5,7 @@
 --main-btn-color:#FFFFFF;
 --second-btn-color:#303030;
 --accent-color:#FF6C00;
+--typical-margin: 20px;
 }
 
 
@@ -14,12 +15,43 @@ body {
     font-family: "Open Sans", Tahoma,Arial, Helvetica, sans-serif;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: 0;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    margin: 0;
+}
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
 .link {
     text-decoration: none;
 }
 
 .list {
   list-style: none;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 1px solid red;
 
 }
 
@@ -40,7 +72,9 @@ body {
 /*-------------------------------HEADER-------------------------------------*/
 
 .header {
-    background-color: gray
+    background-color: gray;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .header-link {
     font-weight: 600;
@@ -93,6 +127,7 @@ body {
 }
 .hero-content {
     background-color: #303030;
+    padding: 272px 0 206px 96px;
 }
     
 .hero-top-text {
@@ -102,6 +137,7 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: rgba(157, 164, 189, 0.6); 
+    margin-bottom: var(--typical-margin);
 }
 
 .hero-title {
@@ -111,6 +147,7 @@ body {
     line-height: 1.18;
     letter-spacing: 0.05em;
     color:var(--main-title-color); 
+    margin-bottom: var(--typical-margin);
 }
 
 .hero-bottom-text {
@@ -119,9 +156,16 @@ body {
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: #9DA4BD;
+    max-width: 400px;
 }
 
 /*-------------------------------ABOUT-------------------------------------*/
+
+.about {
+    padding-top: 139px;
+    padding-bottom: 121px;
+}
+
 
 .about-top-text {
     font-weight: 600;
@@ -130,6 +174,7 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #303030;
+    margin-bottom: var(--typical-margin);
 }
 .about-title {
     font-family: 'Raleway',Tahoma,sans-serif;
@@ -139,6 +184,7 @@ body {
     line-height:1.17;
     letter-spacing: 0.05em;
     color: var(--second-title-color);
+    margin-bottom: var(--typical-margin);
 }
 .about-bottom-text {
     font-weight: 400;
@@ -146,6 +192,7 @@ body {
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: #555555;
+    margin-bottom: var(--typical-margin);
     
 }
 .about-text {
@@ -169,6 +216,8 @@ body {
 
 .prices {
     background-color: #303030;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 
@@ -179,6 +228,7 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: rgba(157, 164, 189, 0.6);
+    margin-bottom: var(--typical-margin);
 }
 .prices-title {
     font-family: 'Raleway',Tahoma,sans-serif;
@@ -186,8 +236,19 @@ body {
     line-height: 1.17;
     letter-spacing: 0.05em;
     color: var(--main-title-color);
+    margin-bottom: 44px;
+    }
+
+.prices-list {
+    border: 1px solid #ffffff;
+    padding: 30px 40px;
+}
+
+.prices-item {
+    margin-bottom: var(--typical-margin);
     
 }
+
 
 .prices-item-text {
     font-size: 18px;
@@ -208,6 +269,17 @@ body {
 
 /*-------------------------------REASONS-------------------------------------*/
 
+.reasons {
+    padding-top: 114px;
+    padding-bottom: 137px;
+}
+
+.reasons-item {
+    width: 170px;
+    height: 130px;
+    border: 1px solid #000000;
+}
+
 .reasons-item-count {
     font-weight: 700;
     font-size: 42px;
@@ -215,6 +287,8 @@ body {
     text-align: center;
     letter-spacing: 0.05em;
     color: #303030;
+    margin-bottom: 6px;
+    display: block;
     
 }
 .reasons-item-text {
@@ -231,6 +305,7 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: #303030;
+    margin-bottom: var(--typical-margin);
 }
 .reasons-title {
     font-family: 'Raleway',Tahoma,sans-serif;
@@ -239,6 +314,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.05em;
     color: var(--second-title-color);
+    margin-bottom: var(--typical-margin);
 }
 .reasons-bottom-text {
     font-size: 18px;
@@ -248,13 +324,26 @@ body {
 }
 
 /*-------------------------------MASTERS-------------------------------------*/
+
+.masters {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+
 .masters-top-text {
     color: #303030;
+    margin-bottom: var(--typical-margin);
 
 }
 
 .masters-title {
     color: var(--second-title-color);
+    margin-bottom: 44px;
+}
+
+.masters-img {
+    margin-bottom: 30px;
 }
 
 .masters-item-title {
@@ -264,6 +353,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #303030;
+    margin-bottom: 8px;
 }
 
 .masters-item-text {
@@ -276,6 +366,12 @@ body {
 
 
 /*-------------------------------GALLERY-------------------------------------*/
+
+.gallery {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
 .gallery-top-text {
     color: #303030;
+    margin-bottom: 44px;
 }

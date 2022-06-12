@@ -10,10 +10,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <title>BarberShop</title>
 </head>
 <body>
     <header class="header">
+        <div class="container">
         <a href="" class="header-logo">
             <img src="./img/logo.svg" alt="лого сайта"></a>
         <nav class="header-navigation">
@@ -28,8 +30,10 @@
 
 <button type="button" class="header-btn">онлайн-запись</button>
 </header>
+</div>
 <main>
     <section class="hero">
+        <div class="container">
         <ul class="hero-list list">
             <li class="hero-item"><a href="" class="hero-link link" target="_blank">Youtube</a></li>
             <li class="hero-item"><a href="" class="hero-link link" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
@@ -39,9 +43,11 @@
         <h1 class="hero-title test" lang="en">BarberShop</h1>
         <p class="hero-bottom-text test">Мы эксперты в модных мужских стрижках. 
             Работаем быстро, осторожно и со вкусом.</p>
-        </div>   
+        </div>
+        </div>
     </section>
     <section class="about">
+        <div class="container">
         <ul class="about-list list">
             <li class="about-item"><img src="./img/img 1.jpg" alt="бреет шею"></li>
             <li class="about-item"><img src="./img/img 2.jpg" alt="делает кантик"></li>
@@ -54,8 +60,10 @@
                 и жаждет перемен. И когда ты попадешь в руки нашего мастера, 
                 то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
                 <button type="button" class="about-btn">онлайн-запись</button>
+        </div>
     </section>
     <section class="prices">
+        <div class="container">
 <p class="prices-top-text">Проведи время в компании лучших мастеров</p>
 <h2 class="prices-title">Услуги и цены</h2>
 <ul class="prices-list list">
@@ -71,27 +79,28 @@
     <li class="prices-item">
       <p class="prices-item-text">Бритье опасной бритвой </p>  <p class="prices-item-text">от 200 грн.</p> 
     </li>
-    </ul>
+ </ul>
+
+ <ul class="prices-list list">
+       <li class="prices-item">
+         <p class="prices-item-text">Cтрижка у стажера</p>   <p class="prices-item-text">от 50 грн.</p>  
+        </li>
+        <li class="prices-item">
+           <p class="prices-item-text">Стрижка под насадку </p>  <p class="prices-item-text">от 200 грн.</p> 
+        </li>
+        <li class="prices-item">
+         <p class="prices-item-text">Детская стрижка (до 12 лет)</p>   <p class="prices-item-text">от 300 грн.</p> 
+        </li>
+        <li class="prices-item">
+          <p class="prices-item-text">Камуфлирование седины </p> <p class="prices-item-text">от 200 грн.</p> 
+        </li>
+     </ul>
     <button type="button" class="prices-btn">онлайн-запись</button>
-  </section>
-  <section class="">
-    <ul class="">
-        <li class="">
-         <p class="">Cтрижка у стажера</p>   <p class="">от 50 грн.</p>  
-        </li>
-        <li class="">
-           <p class="">Стрижка под насадку </p>  <p class="">от 200 грн.</p> 
-        </li>
-        <li class="">
-         <p class="">Детская стрижка (до 12 лет)</p>   <p class="">от 300 грн.</p> 
-        </li>
-        <li class="">
-          <p class="">Камуфлирование седины </p> <p class="">от 200 грн.</p> 
-        </li>
-    </ul>
+    </div>
 </section>
 
 <section class="reasons">
+    <div class="container">
 <ul class="reasons-list list">
 
 <li class="reasons-item">
@@ -119,35 +128,38 @@
 <p class="reasons-top-text">старая традиционная школа</p>
 <h2 class="reasons-title">Почему приходят именно к нам?</h2>
 <p class="reasons-bottom-text">О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать. </p>
-
+</div>
 </section>
 
 
 <section id="masters" class="masters">
+    <div class="container">
 <p class="masters-top-text top-text">для настоящих ценителей атмосферы</p>
 <h2 class="masters-title title">Наши мастера</h2>
 <ul class="masters-list list">
     <li class="masters-item">
-        <img src="./img/img1.jpg" alt="барбер бреет" width="370" height="346">
+        <img src="./img/img1.jpg" alt="барбер бреет" width="370" height="346" class="masters-img">
         <h3 lang="en" class="masters-item-title">John Smith</h3>
         <p lang="en" class="masters-item-text">Extreme Barber</p>
     </li>
 
     <li class="masters-item">
-        <img src="./img/img2.jpg" alt="барбер смотрит" width="370" height="346">
+        <img src="./img/img2.jpg" alt="барбер смотрит" width="370" height="346"  class="masters-img">
         <h3 lang="en" class="masters-item-title">Michele Doe</h3>
         <p lang="en" class="masters-item-text">Extreme Barber</p>
     </li>
 
     <li class="masters-item">
-        <img src="./img/img3.jpg" alt="барбер стрижет" width="370" height="346">
+        <img src="./img/img3.jpg" alt="барбер стрижет" width="370" height="346" class="masters-img" >
         <h3 lang="en" class="masters-item-title">Alan Black</h3>
         <p lang="en" class="masters-item-text">Extreme Barber</p>
     </li>
 </ul>
+</div>
 </section>
 
 <section class="gallery">
+    <div class="container">
 <p class="gallery-top-text top-text">На латинском языке “барба” означает “борода”</p>
     <h2 class="visually-hidde">Галерея</h2>
 <ul class="gallery-list list">
@@ -156,9 +168,9 @@
     <li class="gallery-item"><img src="./img/Rectangle 27-min.jpg" alt="маска для лица"width="270" height="360" ></li>
     <li class="gallery-item"><img src="./img/Rectangle 28-min.jpg" alt="тату на руке"width="270" height="360" ></li>
 </ul>
-
-
+</div>
 </section>
+
 <section>
 <h2>Онлайн-запись</h2>
 </section>
